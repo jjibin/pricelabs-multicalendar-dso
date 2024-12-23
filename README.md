@@ -43,7 +43,7 @@ project-root/
 ├── cypress/
 │   ├── e2e/
 |   |      ├── API
-|   |         ├── api-test-case.cy.ts                # Contains API test cases
+|   |         ├── api-test-case.cy.ts               # Contains API test cases
 │   │      ├── UI
 |   |         ├── multicalendar-dso/
 │   │         │      ├── functional.cy.ts           # Basic tests
