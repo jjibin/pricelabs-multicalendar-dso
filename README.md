@@ -43,21 +43,23 @@ project-root/
 ├── cypress/
 │   ├── e2e/
 |   |      ├── API
-|   |           ├── api-test-case.cy.ts                # Contains API test cases
+|   |         ├── api-test-case.cy.ts                # Contains API test cases
 │   │      ├── UI
-|   |           ├── multicalendar-dso/
-│   │                   ├── functional.cy.ts           # Basic tests
-│   │                   ├── end-to-end.cy.ts           # End-to-End tests
-|   |                   ├── negative-test-cases.cy.ts  # Negative tests
+|   |         ├── multicalendar-dso/
+│   │         │      ├── functional.cy.ts           # Basic tests
+│   │         │      ├── end-to-end.cy.ts           # End-to-End tests
+|   |         │      ├── negative-test-cases.cy.ts  # Negative tests
 │   ├── fixtures/       # Static test data (e.g., JSON files)
 │   │         ├── test-data/
-│   │               ├── addCustomPricing.json
-│   │               ├── getCalendarData.json
-│   │               ├── iinvalidData.json
+│   │         │      ├── addCustomPricing.json
+│   │         │      ├── getCalendarData.json
+│   │         │      ├── invalidData.json
 │   ├── support/                # Support files for custom commands and utilities
 │   │   ├── commands.ts         # Custom Cypress commands
 │   │   ├── commonFunctions.ts  # Common utility functions
-│
+│   │   ├── page-objects/       # Custom Cypress commands
+│   │   │     ├── common-page-objects-constants.ts  # Page objects for common pages
+│   │   │     ├── dso-page-objects.ts               # Page Objects for DSO window
 ├── reports/                    # Stores generated test reports
 |       ├── html/ 
 ├── cypress.config.ts           # Cypress configuration file
