@@ -49,7 +49,7 @@ project-root/
 │   │         │      ├── functional.cy.ts           # Basic tests
 │   │         │      ├── end-to-end.cy.ts           # End-to-End tests
 |   |         │      ├── negative-test-cases.cy.ts  # Negative tests
-│   ├── fixtures/       # Static test data (e.g., JSON files)
+│   ├── fixtures/                                   # Static test data (e.g., JSON files)
 │   │         ├── test-data/
 │   │         │      ├── addCustomPricing.json
 │   │         │      ├── getCalendarData.json
@@ -66,7 +66,7 @@ project-root/
 |       ├── html/ 
 ├── cypress.config.ts           # Cypress configuration file
 ├── package.json                # Project dependencies and scripts
-├── tsconfig.json                # TypeScript configuration file
+├── tsconfig.json               # TypeScript configuration file
 ├── README.md                   # Project documentation
 
 
