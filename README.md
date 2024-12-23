@@ -57,6 +57,8 @@ project-root/
 │   ├── support/                # Support files for custom commands and utilities
 │   │   ├── commands.ts         # Custom Cypress commands
 │   │   ├── commonFunctions.ts  # Common utility functions
+│   │   ├── e2e.js              # Extend Cypress functionality or set up global hooks and events for end-to-end tests.
+│   │   ├── index.d.ts          # TypeScript type definitions for Cypress, enhancing autocompletion and type checking in test files.
 │   │   ├── page-objects/       # Custom Cypress commands
 │   │   │     ├── common-page-objects-constants.ts  # Page objects for common pages
 │   │   │     ├── dso-page-objects.ts               # Page Objects for DSO window
@@ -64,6 +66,7 @@ project-root/
 |       ├── html/ 
 ├── cypress.config.ts           # Cypress configuration file
 ├── package.json                # Project dependencies and scripts
+├── tsconfig.json                # TypeScript configuration file
 ├── README.md                   # Project documentation
 
 
